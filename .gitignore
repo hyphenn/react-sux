@@ -1,23 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-./turtle/node_modules
-./turtle/.pnp
-./turtle/.pnp.js
+turtle/node_modules
+turtle/.pnp
+turtle/.pnp.js
 
 # testing
-./turtle/coverage
+turtle/coverage
 
 # production
-./turtle/build
+turtle/build
 
 # misc
-./turtle/.DS_Store
-./turtle/.env.local
-./turtle/.env.development.local
-./turtle/.env.test.local
-./turtle/.env.production.local
+turtle/.DS_Store
+turtle/.env.local
+turtle/.env.development.local
+turtle/.env.test.local
+turtle/.env.production.local
 
-./turtle/npm-debug.log*
-./turtle/yarn-debug.log*
-./turtle/yarn-error.log*
+turtle/npm-debug.log*
+turtle/yarn-debug.log*
+turtle/yarn-error.log*

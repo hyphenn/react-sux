@@ -1,0 +1,15 @@
+services:
+  nginx:
+    build:
+      dockerfile: ./Dockerfile-nginx
+    networks: 
+      - rave
+  httpd:
+    build:
+      dockerfile: ./Dockerfile-httpd
+    networks: 
+      - rave
+    ports:
+      - "1337:1337"
+networks:
+  rave:
